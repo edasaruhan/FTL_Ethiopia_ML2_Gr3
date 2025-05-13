@@ -1,14 +1,14 @@
 import os
 import json
 from PIL import Image
-
 import numpy as np
-import tensorflow as tf
+# import tensorflow as tf
+#web app for deploying the model
 import streamlit as st
 
 
 working_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = f"{working_dir}/trained_model/plant_disease_prediction_model.h5"
+model_path = f"{working_dir}/model/disease_detector_v1.h5"
 # Load the pre-trained model
 model = tf.keras.models.load_model(model_path)
 
@@ -41,9 +41,9 @@ def predict_image_class(model, image_path, class_indices):
 
 
 # Streamlit App
-st.title('Plant Disease Classifier')
+st.title('Plant Disease Detector')
 
-uploaded_image = st.file_uploader("Upload an image...", type=["jpg", "jpeg", "png"])
+uploaded_image = st.file_uploader("Please upload an image...", type=["jpg", "jpeg", "png"])
 
 if uploaded_image is not None:
     image = Image.open(uploaded_image)
