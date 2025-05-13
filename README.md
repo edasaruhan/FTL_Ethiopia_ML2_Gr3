@@ -1,23 +1,12 @@
 ## 🌡️ **Plant Disease Detection - Deep Learning Project**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![TensorFlow 2.12+](https://img.shields.io/badge/TensorFlow-2.12+-FF6F00?logo=tensorflow)](https://www.tensorflow.org/)
-
 This project focuses on solving the ---- issues farmers as part of the capstone project for the Frontier ML Bootcamp program. 
 
+ This project has the potential to contribute to the existing body of knowledge by focusing on specific challenges identified in the literature, such as striving to improve the generalization of the AI model to perform effectively under diverse real-world conditions or by specifically addressing the issue of data imbalance that is often present within the PlantVillage dataset. The successful development of an accurate and scalable AI system capable of early disease detection holds the promise of empowering farmers and agricultural technicians to implement timely and targeted interventions, thereby significantly reducing crop losses and enhancing overall agricultural productivity. 
 
 #### **Key Sections include:**
 
 > Refer to the notebook [Here](https://github.com/edasaruhan/FTL_Ethiopia_ML2_Gr3/notebooks/plant-disease-prediction.ipynb) for more detail.
-
-
-## **Demo**
-![Disease Prediction Demo](https://raw.githubusercontent.com/edasaruhan/FTL_Ethiopia_ML2_Gr3/main/demo/disease_prediction%202.PNG)
-
-
-
-
 
 ### 🔧 **Tools Used**
 
@@ -45,3 +34,9 @@ This project focuses on solving the ---- issues farmers as part of the capstone 
 * scikit-learn
 * tensorflow
 * streamlit
+
+
+
+## **Demo**
+![Disease Prediction Demo](https://raw.githubusercontent.com/edasaruhan/FTL_Ethiopia_ML2_Gr3/main/demo/disease_prediction%202.PNG)
+
