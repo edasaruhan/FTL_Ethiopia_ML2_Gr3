@@ -2,6 +2,15 @@
 
 This project focuses on solving the ---- issues farmers as part of the capstone project for the Frontier ML Bootcamp program. 
 
+#### **Constributors:**
+```python
+- Abenezer Tesfaye
+- Shewanek Zewdu
+- Emran Kamil 
+- Hewan
+- Biniyam Berga 
+```
+
  This project has the potential to contribute to the existing body of knowledge by focusing on specific challenges identified in the literature, such as striving to improve the generalization of the AI model to perform effectively under diverse real-world conditions or by specifically addressing the issue of data imbalance that is often present within the PlantVillage dataset. The successful development of an accurate and scalable AI system capable of early disease detection holds the promise of empowering farmers and agricultural technicians to implement timely and targeted interventions, thereby significantly reducing crop losses and enhancing overall agricultural productivity. 
 
 #### **Key Sections include:**
