@@ -2,6 +2,22 @@
 
 This project focuses on solving the ---- issues farmers as part of the capstone project for the Frontier ML Bootcamp program. 
 
+### **Project Objective:**
+
+Crop diseases reduce agricultural yields, threatening food security. This project aims to develop an AI system using image recognition to detect crop diseases early, enabling farmers and agricultural technicians to act swiftly and provide solutions. This project could be scaled to benefit diverse crops and regions, amplifying its impact on a country’s agriculture.
+
+**Relevance to Sustainable Development Goals (SDGs):**
+
+This project aligns with SDG 2: Zero Hunger by enhancing food security through sustainable agriculture and SDG 12: Responsible Consumption and Production by minimizing crop waste.
+
+**Data Description:**
+
+➢ Source: PlantVillage dataset with labeled images of healthy and diseased plants.
+➢ Format: JPEG images.
+➢ Size: hundreds of crop images.
+➢ Preprocessing: Resize images, normalize pixel values, augment data, and etc
+
+
 #### **Constributors:**
 ```python
 - Abenezer Tesfaye
