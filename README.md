@@ -5,7 +5,7 @@
 This project focuses on solving the crop diseases reduce agricultural yields, threatening food security issues farmers as part of the capstone project for the Frontier ML Bootcamp program. This project aims to develop an AI system using image recognition to detect crop diseases early, enabling farmers and agricultural technicians to act swiftly and provide solutions. This project could be scaled to benefit diverse crops and regions, amplifying its impact on a country’s agriculture.
 
 > **Relevance to Sustainable Development Goals (SDGs):**
-This project aligns with SDG 2: Zero Hunger by enhancing food security through sustainable agriculture and SDG 12: Responsible Consumption and Production by minimizing crop waste.
+  This project aligns with SDG 2: Zero Hunger by enhancing food security through sustainable agriculture and SDG 12: Responsible Consumption and Production by minimizing crop waste.
 
 ### 📂 **Project Structure**
 
@@ -69,7 +69,7 @@ Follow these steps to set up and run the project:
   
 5. Results:
 
-   - The app will display the prediction of the leaf as unhealthy or healthy, eg ***test_blueberry_healthy**.
+   - The app will display the prediction of the leaf as unhealthy or healthy ***eg. test_blueberry_healthy***.
 
 
 
@@ -77,12 +77,18 @@ Follow these steps to set up and run the project:
 ![Disease Prediction Demo](https://raw.githubusercontent.com/edasaruhan/FTL_Ethiopia_ML2_Gr3/main/demo/disease_prediction%202.PNG)
 
 
-## 🚀**How It Works**
+### 🚀 **How It Works**
 
 1. Upload Image 🖼️: Just drop your image into the app.
 2. Magic Prep ✨: Clean it up—resize, reshape, and get it ready for the model.
 3. Predict! 🤔: The model takes a look and guesses what it is.
 4. See Results! ✅: App Shows you the answer!
+
+
+### 📝 **License**
+
+This project is licensed under the MIT License. See [LICENSE](./LICENSE) file for more details.
+
 
 ### 🧑‍🤝‍🧑 **Project Constributors**
 ```python
@@ -92,4 +98,3 @@ Follow these steps to set up and run the project:
 - Hewan
 - Biniyam Berga 
 ```
-
