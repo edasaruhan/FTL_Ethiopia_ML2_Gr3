@@ -7,24 +7,19 @@ This project focuses on solving the crop diseases reduce agricultural yields, th
 > **Relevance to Sustainable Development Goals (SDGs):**
 This project aligns with SDG 2: Zero Hunger by enhancing food security through sustainable agriculture and SDG 12: Responsible Consumption and Production by minimizing crop waste.
 
-**Data Description:**
+**Project Structure**
 
-- Source: PlantVillage dataset with labeled images of healthy and diseased plants.
-- Format: JPEG images.
-- Size: hundreds of crop images.
-- Preprocessing: Resize images, normalize pixel values, augment data, and etc
-
-
-#### **Constributors:**
-```python
-- Abenezer Tesfaye
-- Shewanek Zewdu
-- Emran Kamil 
-- Hewan
-- Biniyam Berga 
+```
+plant-disease-detector/
+├── app  # The main Streamlit application script
+├── model/
+│   └── disease_detector_v1.h5  # The pre-trained Keras model file
+├── class_indices.json          # JSON file mapping model output indices to class names
+├── requirements.txt            # File listing Python dependencies
+└── README.md                   # This file
 ```
 
- This project has the potential to contribute to the existing body of knowledge by focusing on specific challenges identified in the literature, such as striving to improve the generalization of the AI model to perform effectively under diverse real-world conditions or by specifically addressing the issue of data imbalance that is often present within the PlantVillage dataset. The successful development of an accurate and scalable AI system capable of early disease detection holds the promise of empowering farmers and agricultural technicians to implement timely and targeted interventions, thereby significantly reducing crop losses and enhancing overall agricultural productivity. 
+
 
 #### **Key Sections include:**
 
@@ -45,20 +40,54 @@ This project aligns with SDG 2: Zero Hunger by enhancing food security through s
 
 
 
-### 📦 **Installation**
+### 📦 **Setup and Installation**
 
-#### Prerequisites
-* numpy
-* pandas
-* seaborn
-* matplotlib
-* plotly
-* scikit-learn
-* tensorflow
-* streamlit
+Follow these steps to set up and run the project:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/edasaruhan/FTL_Ethiopia_ML2_Gr3.git
+    cd FTL_Ethiopia_ML2_Gr3
+    ```
+
+2. Install dependencies:
+   ```bash
+    pip install -r requirements.txt
+   ```
+3. Run the script:
+   ```bash
+    streamlit run app/main.py
+   ```
+4. Provide inputs when prompted:
+
+  - Place your pre-trained model disease_detector_v1.h5 inside a model/ directory in the project root.
+  - Place your class_indices.json file in the project root.
+  
+5. Results:
+The app will display the extracted DOM content and parsed results based on your description.
 
 
 
-## **Demo**
+
+## ✨ **Demo**
 ![Disease Prediction Demo](https://raw.githubusercontent.com/edasaruhan/FTL_Ethiopia_ML2_Gr3/main/demo/disease_prediction%202.PNG)
+
+
+## 🚀**How It Works**
+
+1 Upload Image 🖼️: Just drop your image into the app.
+Magic Prep ✨: We clean it up—resize, reshape, and get it ready for the model.
+Predict! 🤔: Our model takes a look and guesses what it is.
+See Results! ✅: We show you the answer!
+
+
+
+#### **Constributors:**
+```python
+- Abenezer Tesfaye
+- Shewanek Zewdu
+- Emran Kamil 
+- Hewan
+- Biniyam Berga 
+```
 
