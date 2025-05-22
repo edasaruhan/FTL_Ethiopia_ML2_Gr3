@@ -33,6 +33,7 @@ plant-disease-detector/
 <p>
 <img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white">
 <img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white">  
+<img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white">
 <img src="https://img.shields.io/badge/-Keras-D00000?style=flat&logo=keras&logoColor=white"> 
 <img src="https://img.shields.io/badge/-scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white">
 <img src="https://img.shields.io/badge/-NumPy-013243?style=flat&logo=numpy&logoColor=white">
@@ -67,7 +68,8 @@ Follow these steps to set up and run the project:
    - Place your class_indices.json file in the project root.
   
 5. Results:
-The app will display the extracted DOM content and parsed results based on your description.
+
+   - The app will display the prediction of the leaf as unhealthy or healthy, eg ***test_blueberry_healthy**.
 
 
 
@@ -82,7 +84,7 @@ The app will display the extracted DOM content and parsed results based on your 
 3. Predict! 🤔: The model takes a look and guesses what it is.
 4. See Results! ✅: App Shows you the answer!
 
-#### **Project Constributors:**
+### 🧑‍🤝‍🧑 **Project Constributors**
 ```python
 - Abenezer Tesfaye
 - Shewanek Zewdu
