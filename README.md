@@ -11,12 +11,19 @@ This project aligns with SDG 2: Zero Hunger by enhancing food security through s
 
 ```
 plant-disease-detector/
-├── app  # The main Streamlit application script
-├── model/
-│   └── disease_detector_v1.h5  # The pre-trained Keras model file
-├── class_indices.json          # JSON file mapping model output indices to class names
-├── requirements.txt            # File listing Python dependencies
-└── README.md                   # This file
+  ├── app/
+  │   ├── main.py                   
+  │   └── requirements.txt            
+  ├── model/
+  │   └── disease_detector_v1.h5      
+  ├── notebooks/
+  │   └── plant-disease-prediction.ipynb 
+  ├── demo/
+  ├── images/                          
+  ├── class_indices.json              
+  ├── requirements.txt              
+  ├── .gitignore                 
+  └── README.md   
 ```
 
 
