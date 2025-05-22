@@ -1,13 +1,13 @@
 ## 🌡️ **Plant Disease Detection - Deep Learning Project**
  
-### **Project Objective:**
+### **Project Objective**
 
 This project focuses on solving the crop diseases reduce agricultural yields, threatening food security issues farmers as part of the capstone project for the Frontier ML Bootcamp program. This project aims to develop an AI system using image recognition to detect crop diseases early, enabling farmers and agricultural technicians to act swiftly and provide solutions. This project could be scaled to benefit diverse crops and regions, amplifying its impact on a country’s agriculture.
 
 > **Relevance to Sustainable Development Goals (SDGs):**
 This project aligns with SDG 2: Zero Hunger by enhancing food security through sustainable agriculture and SDG 12: Responsible Consumption and Production by minimizing crop waste.
 
-**Project Structure**
+### 📂 **Project Structure**
 
 ```
 plant-disease-detector/
@@ -25,10 +25,6 @@ plant-disease-detector/
   ├── .gitignore                 
   └── README.md   
 ```
-
-
-
-#### **Key Sections include:**
 
 > Refer to the notebook [Here](https://github.com/edasaruhan/FTL_Ethiopia_ML2_Gr3/notebooks/plant-disease-prediction.ipynb) for more detail.
 
@@ -67,29 +63,26 @@ Follow these steps to set up and run the project:
    ```
 4. Provide inputs when prompted:
 
-  - Place your pre-trained model disease_detector_v1.h5 inside a model/ directory in the project root.
-  - Place your class_indices.json file in the project root.
+   - Place your pre-trained model disease_detector_v1.h5 inside a model/ directory in the project root.
+   - Place your class_indices.json file in the project root.
   
 5. Results:
 The app will display the extracted DOM content and parsed results based on your description.
 
 
 
-
-## ✨ **Demo**
+### ✨ **Demo**
 ![Disease Prediction Demo](https://raw.githubusercontent.com/edasaruhan/FTL_Ethiopia_ML2_Gr3/main/demo/disease_prediction%202.PNG)
 
 
 ## 🚀**How It Works**
 
-1 Upload Image 🖼️: Just drop your image into the app.
-Magic Prep ✨: We clean it up—resize, reshape, and get it ready for the model.
-Predict! 🤔: Our model takes a look and guesses what it is.
-See Results! ✅: We show you the answer!
+1. Upload Image 🖼️: Just drop your image into the app.
+2. Magic Prep ✨: Clean it up—resize, reshape, and get it ready for the model.
+3. Predict! 🤔: The model takes a look and guesses what it is.
+4. See Results! ✅: App Shows you the answer!
 
-
-
-#### **Constributors:**
+#### **Project Constributors:**
 ```python
 - Abenezer Tesfaye
 - Shewanek Zewdu
